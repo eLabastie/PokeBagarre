@@ -8,6 +8,7 @@ public class ConstructeurDePokemon {
   private int defense;
 
   public static ConstructeurDePokemon unPokemon() {
+
     return new ConstructeurDePokemon();
   }
 
@@ -22,6 +23,7 @@ public class ConstructeurDePokemon {
   }
 
   public Pokemon construire() {
+
     return new Pokemon("Nom", "", new Stats(attaque, defense));
   }
 }
