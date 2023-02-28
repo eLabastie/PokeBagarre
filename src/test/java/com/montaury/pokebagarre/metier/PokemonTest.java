@@ -1,4 +1,5 @@
 package com.montaury.pokebagarre.metier;
+
 import com.montaury.pokebagarre.fixtures.ConstructeurDePokemon;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
