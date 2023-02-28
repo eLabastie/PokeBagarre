@@ -58,4 +58,25 @@ class PokemonTest {
         //THEN
         assertEquals(true, vainqueur);
     }
+
+    @Test
+    void pokemon_bon_nom() {
+        //GIVEN
+        Pokemon pokemon = new Pokemon("Pikachu","", new Stats(220,50));
+        //WHEN
+        String nom = pokemon.getNom();
+        //THEN
+        assertEquals("Pikachu", nom);
+    }
+
+    @Test
+    void pokemon_bonne_url() {
+        //GIVEN
+        Pokemon pokemon = new Pokemon("Pikachu","url.example", new Stats(220,50));
+        //WHEN
+        String url = pokemon.getUrlImage();
+        //THEN
+        assertEquals("url.example", url );
+    }
+
 };
