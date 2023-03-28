@@ -9,7 +9,7 @@ public class PokeBagarreApp extends Application {
 
   @Override
   public void start(Stage primaryStage) {
-    primaryStage.setTitle("C'est l'heure de la PokeBagarre!");
+    primaryStage.setTitle("C'est l'heure de la PokeBaston!");
     primaryStage.setScene(ecranSaisie.getScene());
     primaryStage.show();
   }
